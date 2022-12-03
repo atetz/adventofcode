@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "adventofcode"
+version = "0.1.0"
+description = "My attempts at solving the advent of code puzzles."
+authors = ["atetz <mail@adamtetz.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^22.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
