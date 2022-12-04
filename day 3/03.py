@@ -3,7 +3,7 @@
 """
 
 from typing import List
-from string import ascii_lowercase, ascii_uppercase
+from string import ascii_letters
 
 
 def divide_rucksack(rucksack: str) -> List:
@@ -41,7 +41,7 @@ def get_group_badge_type(group: List, size: int) -> str:
             return char
 
 
-priority = ascii_lowercase + ascii_uppercase
+priority = ascii_letters
 
 
 def main():  # sourcery skip: comprehension-to-generator
