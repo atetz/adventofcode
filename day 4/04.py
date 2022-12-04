@@ -6,7 +6,7 @@
 def get_section_range(section):
     start = int(section.split("-")[0])
     stop = int(section.split("-")[1])
-    return {start} if start == stop else set(range(start, stop + 1))
+    return set(range(start, stop + 1))
 
 
 overlapping_pairs = 0
